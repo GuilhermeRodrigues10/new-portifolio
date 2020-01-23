@@ -1,10 +1,11 @@
 import React from 'react';
+import Sidebar from './components/Sidebar.js'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi There</h1>
+    <div>
+      <Sidebar color="red" />
     </div>
   );
 }
