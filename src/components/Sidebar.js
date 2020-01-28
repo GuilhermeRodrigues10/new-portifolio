@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import '../stylesheet/Sidebar.css'
-import profile from '../images/pic.jpg'
+import profile from '../images/Sidebar/pic.jpg'
 
 class Sidebar extends React.Component {
   render() {

@@ -1,13 +1,13 @@
 import React from 'react';
 import { CardColumns, Card } from 'react-bootstrap';
-import picture1 from '../images/p1.jpg'
-import picture2 from '../images/p2.jpg'
-import picture3 from '../images/p3.jpg'
-import picture4 from '../images/p4.jpg'
-import picture5 from '../images/p5.jpg'
-import picture6 from '../images/p6.jpg'
-import picture7 from '../images/p7.jpg'
-import react from '../images/react.png'
+import picture1 from '../images/AboutMe/p1.jpg'
+import picture2 from '../images/AboutMe/p2.jpg'
+import picture3 from '../images/AboutMe/p3.jpg'
+import picture4 from '../images/AboutMe/p4.jpg'
+import picture5 from '../images/AboutMe/p5.jpg'
+import picture6 from '../images/AboutMe/p6.jpg'
+import picture7 from '../images/AboutMe/p7.jpg'
+import react from '../images/AboutMe/react.png'
 
 class AboutMe extends React.Component {
   render() {
