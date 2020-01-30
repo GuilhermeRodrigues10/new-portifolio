@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar.js'
 import AboutMe from './components/AboutMe.js'
+import Historic from './components/Historic.js'
 import { Container, Row, Col } from 'react-bootstrap';
 import './stylesheet/App.css';
 
@@ -9,8 +10,8 @@ function App() {
     <div>
       <Container>
         <Row>
-          <Col className="fixedSide" xs={4}><Sidebar /></Col>
-          <Col xs={8}><AboutMe /></Col>
+          <Col xs={4}><Sidebar /></Col>
+          <Col className="bottomCard" xs={8}><Historic /></Col>
         </Row>
       </Container>
     </div>

@@ -26,3 +26,15 @@
 .card-text {
   font-size: smaller;
 }
+
+.bottomCard {
+  padding-bottom: 10px;
+}
+
+.yearCard {
+  padding-top: 12px;
+}
+
+.cardText {
+  font-weight: bold;
+}
