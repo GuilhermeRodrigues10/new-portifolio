@@ -13,7 +13,7 @@ function App() {
       <Container>
         <Row>
           <Col xs={4}><Sidebar /></Col>
-          <Col  xs={8}><AboutMe /></Col>
+          <Col  xs={8}><Skill /></Col>
         </Row>
       </Container>
     </div>

@@ -7,10 +7,10 @@ class HistoricCard extends React.Component {
       <div>
         <Container>
           <Row>
-            <Col className="yearCard" md={4}>
-               {this.props.year} ↦
+            <Col className="topRightSide" md={4}>
+              {this.props.year} ↦
             </Col>
-              <Col  md={8}>
+            <Col md={8}>
               <Card>
                 <Card.Img fluid variant="top" src={this.props.pic} />
                 <Card.Body>

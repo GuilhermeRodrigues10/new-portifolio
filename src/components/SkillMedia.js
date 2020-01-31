@@ -1,5 +1,5 @@
 import React from "react";
-import { Media } from "react-bootstrap";
+import { Media, ProgressBar } from "react-bootstrap";
 
 class SkillMedia extends React.Component {
   render() {
@@ -7,20 +7,16 @@ class SkillMedia extends React.Component {
       <div>
         <Media>
           <img
-            width={84}
-            height={110}
+            width={104}
+            height={124}
             className="mr-3"
             src={this.props.pic}
             alt="Generic placeholder"
           />
           <Media.Body>
-            <h5>Media Heading</h5>
-            <p>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-              ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-              tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-              Donec lacinia congue felis in faucibus.
-            </p>
+            <h5>{this.props.title}</h5>
+            <p>{this.props.text}</p>
+            <ProgressBar variant={this.props.color} now={this.props.now} label={`${this.props.now}%`} animated />
           </Media.Body>
         </Media>
       </div>
