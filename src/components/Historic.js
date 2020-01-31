@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import mapfre from "../images/Historic/mapfre.jpg";
 import ringa from "../images/Historic/ringa.png";
 import catijr from "../images/Historic/catijr.png";
@@ -21,14 +20,14 @@ class Historic extends React.Component {
         <HistoricCard
           text="Atualmente trabalho com Desenvolvimento Web utilizando as mais
                 modernas Linguagens (React e Ruby on Rails) e ferramentas de
-                Desenvolvimento Ágil (Scrum e Kanban)"
+                Desenvolvimento Ágil (Scrum e Kanban)."
           pic={ringa}
           year="Set 2018 - Atual"
         />
         <HistoricCard
           text="A Cati Jr é uma Empresa Junior criada e administrada exclusivamente
           por alunos da Universidade Federal de São Carlos. Trabalhei como Product Owner
-          e pude ter um primeiro contato com o universo empreendor"
+          e pude ter um primeiro contato com o universo empreendedor."
           pic={catijr}
           year="Mar 2018 - Set 2018"
         />
@@ -39,7 +38,7 @@ class Historic extends React.Component {
         />
         <HistoricCard
           text="Ensino Médio integrado com o Ensino Técnico em Informática.
-                Neste ponto que escolhi qual carreira seguiria após o colegial"
+                Neste ponto que escolhi qual carreira seguiria após o colegial."
           pic={etec}
           year="Mar 2010 - Dez 2012"
         />
