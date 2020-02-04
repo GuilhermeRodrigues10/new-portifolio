@@ -21,16 +21,32 @@ class Network extends React.Component {
             </Col>
             <Col xs={8}>
               <FadeIn delay={50}>
-                <NetworkCard pic={face} name="Facebook" />
+                <NetworkCard
+                  pic={face}
+                  name="Facebook"
+                  url="https://www.facebook.com/guilherme.rodrigues.942"
+                />
               </FadeIn>
               <FadeIn delay={100}>
-                <NetworkCard pic={insta} name="Instagram" />
+                <NetworkCard
+                  pic={insta}
+                  name="Instagram"
+                  url="https://www.instagram.com/guillhermerodrigues/"
+                />
               </FadeIn>
               <FadeIn delay={150}>
-                <NetworkCard pic={twitter} name="Twitter" />
+                <NetworkCard
+                  pic={twitter}
+                  name="Twitter"
+                  url="https://twitter.com/guilhermerdrges"
+                />
               </FadeIn>
               <FadeIn delay={200}>
-                <NetworkCard pic={linkedin} name="Linkedin" />
+                <NetworkCard
+                  pic={linkedin}
+                  name="Linkedin"
+                  url="https://www.linkedin.com/in/guilherme-rodrigues10/"
+                />
               </FadeIn>
             </Col>
           </Row>

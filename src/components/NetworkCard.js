@@ -8,7 +8,7 @@ class NetworkCard extends React.Component {
         <Container>
           <Card.Title>
             <Card.Body>
-              <a href="#">
+              <a href={this.props.url} target="_blank">
                 <Image src={this.props.pic} />
                 <Card.Text>{this.props.name}</Card.Text>
               </a>
