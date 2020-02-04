@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import AboutMe from './components/AboutMe.js'
+import AboutMe from "./components/AboutMe.js";
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from "react-bootstrap";
 
-import './stylesheet/App.css';
+import "./stylesheet/App.css";
 
 function App() {
   return (

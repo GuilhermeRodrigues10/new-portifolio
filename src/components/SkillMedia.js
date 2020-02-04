@@ -16,7 +16,12 @@ class SkillMedia extends React.Component {
           <Media.Body>
             <h5>{this.props.title}</h5>
             <p>{this.props.text}</p>
-            <ProgressBar variant={this.props.color} now={this.props.now} label={`${this.props.now}%`} animated />
+            <ProgressBar
+              variant={this.props.color}
+              now={this.props.now}
+              label={`${this.props.now}%`}
+              animated
+            />
           </Media.Body>
         </Media>
       </div>

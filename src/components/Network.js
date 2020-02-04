@@ -1,8 +1,9 @@
 import React from "react";
-import FadeIn from 'react-fade-in';
 import { Container, Row, Col } from "react-bootstrap";
+import FadeIn from "react-fade-in";
+
 import NetworkCard from "./NetworkCard.js";
-import Sidebar from './Sidebar.js'
+import Sidebar from "./Sidebar.js";
 
 import face from "../images/Network/face.png";
 import insta from "../images/Network/insta.png";
@@ -15,37 +16,36 @@ class Network extends React.Component {
       <div>
         <Container>
           <Row>
-          <Col xs={4}><Sidebar /></Col>
-          <Col  xs={8} >
-          <Row>
-            <FadeIn delay={50}>
-              <Col lg={6}>
-                <NetworkCard pic={face} />
-              </Col>
-            </FadeIn>
-            <FadeIn delay={100}>
-              <Col lg={6}>
-                <NetworkCard pic={insta} />
-              </Col>
-            </FadeIn>
-          </Row>
-          <Row >
-          <FadeIn delay={150} >
-            <Col lg={6}>
-              <NetworkCard pic={twitter}/>
+            <Col xs={4}>
+              <Sidebar />
             </Col>
-          </FadeIn>
-          <FadeIn delay={200}>
-            <Col lg={6}>
-              <NetworkCard pic={linkedin} />
+            <Col xs={8}>
+              <Row>
+                <FadeIn delay={50}>
+                  <Col lg={6}>
+                    <NetworkCard pic={face} />
+                  </Col>
+                </FadeIn>
+                <FadeIn delay={100}>
+                  <Col lg={6}>
+                    <NetworkCard pic={insta} />
+                  </Col>
+                </FadeIn>
+              </Row>
+              <Row>
+                <FadeIn delay={150}>
+                  <Col lg={6}>
+                    <NetworkCard pic={twitter} />
+                  </Col>
+                </FadeIn>
+                <FadeIn delay={200}>
+                  <Col lg={6}>
+                    <NetworkCard pic={linkedin} />
+                  </Col>
+                </FadeIn>
+              </Row>
             </Col>
-          </FadeIn>
           </Row>
-
-          </Col>
-          </Row>
-
-
         </Container>
       </div>
     );
