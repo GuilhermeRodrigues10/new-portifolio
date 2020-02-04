@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import '../stylesheet/Sidebar.css'
 import profile from '../images/Sidebar/pic.jpg'
 
@@ -20,11 +21,10 @@ class Sidebar extends React.Component {
           </Card.Body>
           <Card.Body>
             <ListGroup className="list-group-flush">
-              <ListGroupItem>About Me</ListGroupItem>
-              <ListGroupItem>Histórico</ListGroupItem>
-              <ListGroupItem>Habilidades</ListGroupItem>
-              <ListGroupItem>Redes Sociais</ListGroupItem>
-              <ListGroupItem>Interesses</ListGroupItem>
+              <Link to="/"><ListGroupItem>About Me</ListGroupItem></Link>
+              <Link to="/historic"><ListGroupItem>Histórico</ListGroupItem></Link>
+              <Link to="/skills"><ListGroupItem>Habilidades</ListGroupItem></Link>
+              <Link to="/network"><ListGroupItem>Redes Sociais</ListGroupItem></Link>
             </ListGroup>
           </Card.Body>
         </Card>

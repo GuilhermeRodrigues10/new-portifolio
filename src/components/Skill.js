@@ -1,6 +1,7 @@
 import React from "react";
-import { Media } from "react-bootstrap";
+import { Media, Row, Col, Container } from "react-bootstrap";
 import FadeIn from "react-fade-in";
+import Sidebar from './Sidebar.js'
 
 import html from "../images/Skill/html.png";
 import css from "../images/Skill/css.png";
@@ -17,6 +18,10 @@ class Skill extends React.Component {
   render() {
     return (
       <div className="topRightSide">
+      <Container>
+        <Row>
+        <Col xs={4}><Sidebar /></Col>
+        <Col  xs={8} >
         <FadeIn delay={100}>
           <SkillMedia
             pic={html}
@@ -106,6 +111,14 @@ class Skill extends React.Component {
             text="Sei o suficiente para sobreviver! (haha) "
           />
         </FadeIn>
+
+
+
+        </Col>
+        </Row>
+        </Container>
+
+
       </div>
     );
   }

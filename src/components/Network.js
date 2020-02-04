@@ -2,6 +2,7 @@ import React from "react";
 import FadeIn from 'react-fade-in';
 import { Container, Row, Col } from "react-bootstrap";
 import NetworkCard from "./NetworkCard.js";
+import Sidebar from './Sidebar.js'
 
 import face from "../images/Network/face.png";
 import insta from "../images/Network/insta.png";
@@ -13,6 +14,9 @@ class Network extends React.Component {
     return (
       <div>
         <Container>
+          <Row>
+          <Col xs={4}><Sidebar /></Col>
+          <Col  xs={8} >
           <Row>
             <FadeIn delay={50}>
               <Col lg={6}>
@@ -37,6 +41,11 @@ class Network extends React.Component {
             </Col>
           </FadeIn>
           </Row>
+
+          </Col>
+          </Row>
+
+
         </Container>
       </div>
     );
