@@ -6,12 +6,14 @@ class NetworkCard extends React.Component {
     return (
       <div>
         <Container>
-          <Card.Body>
-            <a href="#">
-              <Image src={this.props.pic} />
-            </a>
-            <Card.Text>{this.props.name}</Card.Text>
-          </Card.Body>
+          <Card.Title>
+            <Card.Body>
+              <a href="#">
+                <Image src={this.props.pic} />
+                <Card.Text>{this.props.name}</Card.Text>
+              </a>
+            </Card.Body>
+          </Card.Title>
         </Container>
       </div>
     );
