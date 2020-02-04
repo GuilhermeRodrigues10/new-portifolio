@@ -20,30 +20,18 @@ class Network extends React.Component {
               <Sidebar />
             </Col>
             <Col xs={8}>
-              <Row>
-                <FadeIn delay={50}>
-                  <Col lg={6}>
-                    <NetworkCard pic={face} />
-                  </Col>
-                </FadeIn>
-                <FadeIn delay={100}>
-                  <Col lg={6}>
-                    <NetworkCard pic={insta} />
-                  </Col>
-                </FadeIn>
-              </Row>
-              <Row>
-                <FadeIn delay={150}>
-                  <Col lg={6}>
-                    <NetworkCard pic={twitter} />
-                  </Col>
-                </FadeIn>
-                <FadeIn delay={200}>
-                  <Col lg={6}>
-                    <NetworkCard pic={linkedin} />
-                  </Col>
-                </FadeIn>
-              </Row>
+              <FadeIn delay={50}>
+                <NetworkCard pic={face} name="Facebook" />
+              </FadeIn>
+              <FadeIn delay={100}>
+                <NetworkCard pic={insta} name="Instagram" />
+              </FadeIn>
+              <FadeIn delay={150}>
+                <NetworkCard pic={twitter} name="Twitter" />
+              </FadeIn>
+              <FadeIn delay={200}>
+                <NetworkCard pic={linkedin} name="Linkedin" />
+              </FadeIn>
             </Col>
           </Row>
         </Container>

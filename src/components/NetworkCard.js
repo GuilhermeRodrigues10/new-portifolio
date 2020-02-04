@@ -1,15 +1,18 @@
 import React from "react";
-import { Card, Image } from "react-bootstrap";
+import { Card, Image, Container } from "react-bootstrap";
 
 class NetworkCard extends React.Component {
   render() {
     return (
       <div>
-        <Card className="card-body" style={{ width: "18rem" }}>
-          <a href="#">
-            <Image src={this.props.pic} />
-          </a>
-        </Card>
+        <Container>
+          <Card.Body>
+            <a href="#">
+              <Image src={this.props.pic} />
+            </a>
+            <Card.Text>{this.props.name}</Card.Text>
+          </Card.Body>
+        </Container>
       </div>
     );
   }

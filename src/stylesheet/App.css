@@ -14,7 +14,7 @@
 .card-img-top {
   display: inline;
   align-self: center;
-  padding-top: 10px;
+  padding-top: 13px;
   max-width: 85%;
   height: auto;
 }
@@ -27,14 +27,10 @@
   font-size: smaller;
 }
 
-.bottomCard {
-  padding-bottom: 10px;
+.cardText {
+  font-weight: bold;
 }
 
 .topRightSide {
-  padding-top: 12px;
-}
-
-.cardText {
-  font-weight: bold;
+  padding-top: 13px;
 }

@@ -18,13 +18,13 @@ import sql from "../images/Skill/sql.png";
 class Skill extends React.Component {
   render() {
     return (
-      <div className="topRightSide">
+      <div >
         <Container>
           <Row>
             <Col xs={4}>
               <Sidebar />
             </Col>
-            <Col xs={8}>
+            <Col xs={8} className="topRightSide">
               <FadeIn delay={100}>
                 <SkillMedia
                   pic={html}

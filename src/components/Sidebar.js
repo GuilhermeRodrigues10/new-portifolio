@@ -2,14 +2,13 @@ import React from "react";
 import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import "../stylesheet/Sidebar.css";
 import profile from "../images/Sidebar/pic.jpg";
 
 class Sidebar extends React.Component {
   render() {
     return (
       <div className="sideCard">
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "20.5rem" }}>
           <Card.Img variant="top" src={profile} />
           <Card.Body>
             <Card.Title>Guilherme Rodrigues</Card.Title>
