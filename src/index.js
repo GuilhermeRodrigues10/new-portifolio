@@ -4,7 +4,6 @@ import "./index.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import App from "./App";
-import AboutMe from "./components/AboutMe.js";
 import Historic from "./components/Historic.js";
 import Skill from "./components/Skill.js";
 import Network from "./components/Network.js";

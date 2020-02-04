@@ -1,5 +1,5 @@
 import React from "react";
-import { Media, Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import FadeIn from "react-fade-in";
 
 import Sidebar from "./Sidebar.js";
