@@ -19,7 +19,7 @@ class Sidebar extends React.Component {
           </Card.Body>
           <Card.Body>
             <ListGroup className="list-group-flush">
-              <Link to="/">
+              <Link to="/new-portifolio">
                 <ListGroupItem>About Me</ListGroupItem>
               </Link>
               <Link to="/historic">

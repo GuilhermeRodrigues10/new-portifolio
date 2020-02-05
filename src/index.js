@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact={true} component={App} />
+      <Route path="/new-portifolio" exact={true} component={App} />
       <Route path="/historic" component={Historic} />
       <Route path="/skills" component={Skill} />
       <Route path="/network" component={Network} />
